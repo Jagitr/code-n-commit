@@ -15,7 +15,6 @@ body.dark-mode #about{
     color: white;
     box-shadow: 5px 5px rgb(145, 145, 145);
 }
-
 header{
     display: flex;
     justify-content: center;
