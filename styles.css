@@ -1,0 +1,88 @@
+body{
+    background-color: white;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+body.dark-mode #about{
+    background-color: black;
+    border-color: white;
+    color: white;
+    box-shadow: 5px 5px rgb(145, 145, 145);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+#about{
+    display: flex;
+    width: 300px;
+    border: 15px solid rgb(0, 0, 0);
+    padding: 50px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px rgb(38, 41, 43);
+}
+
+#profile-image{
+    border-radius: 50%;
+}
+.navbar{
+    background-color: #101411;
+    color: White;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.navbar ul {
+  display: flex; 
+  justify-content: center; 
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+  width: 100%; 
+}
+
+.navbar a{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;  
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 5px;
+}
+.navbar button{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.navbar #theme-toggle{
+    border-radius:50%
+}
+.contact-btn{
+    background-color: white;
+    padding: 5px;
+}
+#theme-toggle{
+    height: 10;
+
+}
+
+
+
